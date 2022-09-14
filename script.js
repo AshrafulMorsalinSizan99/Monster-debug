@@ -91,7 +91,7 @@ const gameOver = () => {
   startTime = null;
   errorCount = 0;
   userText = "";
-  display.classList.add("inactive");
+  display.classList.add("active");
 };
 
 const closeModal = () => {
